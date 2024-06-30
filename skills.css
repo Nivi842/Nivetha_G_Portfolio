@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#navbar {
+    background-color: #333; /* Set background color */
+    overflow: hidden; /* Clear floats */
+    position: sticky;
+    top: 0; /* Stick to the top */
+    width: 100%; /* Full width */
+    z-index: 2000; 
+    height: 60px;
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the links */
+}
+#navbar ul li {
+    display: inline;
+}
+#navbar ul li  a {
+    display: inline-block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+}
+#navbar a:hover {
+    text-decoration: underline;
+    color: palevioletred;
+
+}
+.skill-box {
+    margin: 10px auto;
+    width: 90%;
+    max-width: 900px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 0px 10px 0px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; 
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Specific styles for each skill */
+#java{
+    padding :70px 50px 0px 50px;
+}
+.java-box {
+    background-color: grey; /* Green background */
+    padding: 50px 300px 50px 300px;
+}
+#SpringBoot{
+    padding :70px 50px 0px 50px;
+}
+.springboot-box {
+    background-color: grey; /* Blue background */
+    padding: 50px 300px 50px 300px;
+}
+
+#Springjpa{
+    padding :70px 50px 0px 50px;
+}
+
+.springdatajpa-box {
+    background-color: grey; /* Orange background */
+    padding: 50px 300px 50px 300px;
+}
+#Junit{
+    padding :70px 50px 0px 50px;
+}
+
+
+.junit-box {
+    background-color: grey; /* Purple background */
+    padding: 50px 300px 50px 300px;
+}
+#Mockito{
+    padding :70px 50px 0px 50px;
+}
+
+.mockito-box {
+    background-color: grey; /* Pink background */
+    padding: 50px 300px 50px 300px;
+}
+#Microservices{
+    padding: 70px 50px 0px 50px;
+}
+
+.microservice-box {
+    background-color: grey; /* Amber background */
+    padding: 50px 300px 50px 300px;
+}
+#RESTful{
+    padding: 70px 50px 0px 50px;
+}
+
+.restful-box {
+    background-color: grey; /* Blue Grey background */
+    padding: 50px 300px 50px 300px;
+}
+#HTML{
+    Padding:70px 50px 0px 50px;
+}
+
+.html-box {
+    background-color: gray; /* Brown background */
+    padding: 50px 300px 50px 300px;
+}
+#CSS{
+    Padding:70px 50px 0px 50px;
+}
+
+.css-box {
+    background-color: gray; /* Brown background */
+    padding: 50px 300px 50px 300px;
+}
+#Maven{
+    Padding:70px 50px 0px 50px;
+}
+
+.maven-box {
+    background-color: gray; /* Brown background */
+    padding: 50px 300px 50px 300px;
+}
+
+#Git{
+    Padding:70px 50px 0px 50px;
+}
+
+.git-box {
+    background-color: gray; /* Brown background */
+    padding: 50px 300px 50px 300px;
+}
+#CICD{
+    Padding:70px 50px 0px 50px;
+}
+
+.cicd-box {
+    background-color: gray; /* Brown background */
+    padding: 50px 300px 50px 300px;
+}
+#Bitbucket{
+    Padding:70px 50px 0px 50px;
+}
+
+.bitbucket-box{
+    background-color: gray; /* Brown background */
+    padding: 50px 300px 50px 300px;
+}
+
+#Jenkins{
+    Padding:70px 50px 0px 50px;
+}
+
+.jenkins-box{
+    background-color: gray; /* Brown background */
+    padding: 50px 300px 50px 300px;
+}
+
+#Collaboration{
+    Padding:70px 50px 0px 50px;
+}
+
+.collaboration-box{
+    background-color: gray; /* Brown background */
+    padding: 50px 300px 50px 300px;
+}
+#TimeManagement{
+    Padding:70px 50px 0px 50px;
+}
+
+.management-box{
+    background-color: gray; /* Brown background */
+    padding: 50px 300px 50px 300px;
+}
+/* General styles for headings and preformatted text */
+.skill-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skill-box pre {
+    font-size: 16px;
+    line-height: 1.5;
+    width:100%;
+    text-align: left;
+    margin: 0;
+    flex: 1;
+    overflow: auto; /* Enable scrollbars if needed */
+    white-space: pre-wrap
+}
